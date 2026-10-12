@@ -1,0 +1,8 @@
+command_id: DA18.18.22051A
+test_cases:
+- expected_values:
+    DART_GEAR_RAW_CNT: 0
+  response: 18DAF1180462051A00
+- expected_values:
+    DART_GEAR_RAW_CNT: 170
+  response: 18DAF1180462051AAA
