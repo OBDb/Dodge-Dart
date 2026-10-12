@@ -1,0 +1,7 @@
+command_id: DAC7.C7.220125
+test_cases:
+- expected_values:
+    DART_TID_RL: 12400896
+  response: |-
+    18DAF1C7100A62012500BD39
+    18DAF1C7210091120000BD39

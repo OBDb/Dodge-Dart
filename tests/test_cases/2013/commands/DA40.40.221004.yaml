@@ -1,0 +1,8 @@
+command_id: DA40.40.221004
+test_cases:
+- expected_values:
+    DART_BATT_V_BCM: 12.16
+  response: 18DAF140046210044C
+- expected_values:
+    DART_BATT_V_BCM: 14.56
+  response: 18DAF140046210045B

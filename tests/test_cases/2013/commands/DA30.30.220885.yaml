@@ -1,0 +1,14 @@
+command_id: DA30.30.220885
+test_cases:
+- expected_values:
+    DART_STEER_ANGLE: -719.2
+  response: 18DAF130056208850008
+- expected_values:
+    DART_STEER_ANGLE: 720
+  response: 18DAF13005620885F600
+- expected_values:
+    DART_STEER_ANGLE: 720
+  response: 18DAF13005620885FDFF
+- expected_values:
+    DART_STEER_ANGLE: 720
+  response: 18DAF13005620885FF01
