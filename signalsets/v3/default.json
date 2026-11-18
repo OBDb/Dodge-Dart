@@ -7,7 +7,7 @@
   "signals": [
     {"id": "DART_ENGINE_STATUS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine operational status"}
   ]},
-{ "hdr": "DA10", "rax": "10", "din": "03", "cmd": {"22": "1003"}, "freq": 5, "dbgfilter": { "from": 2014 },
+{ "hdr": "DA10", "rax": "10", "din": "03", "dbg": true, "cmd": {"22": "1003"}, "freq": 5,
   "signals": [
     {"id": "DART_ECT_ECU", "path": "Engine", "fmt": { "len": 16, "max": 200, "min": -40, "mul": 2, "div": 100, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Coolant temperature"}
   ]},
